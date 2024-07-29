@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <script
+      src="https://kit.fontawesome.com/818fa8aa3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: purple;
+      }
+      #logo {
+        width: 7%;
+      }
+      #heading {
+        width: 60%;
+        height: 60%;
+        color: rgb(180, 23, 23);
+        padding-left: 7%;
+        position: absolute;
+        top: 13px;
+        left: 3px;
+      }
+      #container {
+        background-color: rgb(9, 9, 9);
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 20px 20px;
+      }
+      nav > ul > li {
+        z-index: 100 !important;
+      }
+      nav > ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5rem;
+      }
+      #searchbar {
+        border: 2px solid rgb(22, 98, 212);
+        height: 1.875rem;
+        border-radius: 0.575rem;
+        width: 10.375rem;
+        float: right;
+      }
+      #searchbtn {
+        border: 3px dashed dark;
+        height: 1.875rem;
+        width: 4.375rem;
+        border-radius: 0.575rem;
+        background-color: rgb(180, 23, 23);
+        float: right;
+      }
+      #searchform {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.1875rem;
+        float: right;
+      }
+      a {
+        color: #bc8383;
+      }
+      a:hover {
+        color: #2383af;
+      }
+      a:visited {
+        color: #13765a5f;
+      }
+      a:active {
+        color: #1214785f;
+      }
+      #abtDiv {
+        padding-left: 2%;
+      }
+      #abtHeading {
+        color: rgb(169, 193, 31);
+      }
+      #abtPara {
+        color: rgb(169, 193, 31);
+        width: 68%;
+        font-size: x-large;
+      }
+      b {
+        color: rgba(126, 2, 2, 0.689);
+      }
+      #socialIcons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      footer {
+        padding-left: 40%;
+      }
+      em {
+        padding-right: 65%;
+        color: rgb(169, 193, 31);
+        font-size: x-large;
+      }
+      #fbIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.5;
+      }
+      #instaIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+      #twitterIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+      #linkedInIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="container">
+        <img src="../media/9391714.png" id="logo" />
+        <h1 id="heading">CRESTED IMPRESSION</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="../index.html"><h2>Home</h2></a>
+            </li>
+            <li>
+              <a href="./signUp.html"><h2>Sign Up</h2></a>
+            </li>
+            <li>
+              <a href="./about.html"><h2>About</h2></a>
+            </li>
+            <li>
+              <a href="./phones.html"><h2>Phones</h2></a>
+            </li>
+            <li>
+              <a href="./laptops.html"><h2>Laptops</h2></a>
+            </li>
+          </ul>
+        </nav>
+        <form id="searchform">
+          <input
+            type="Search"
+            placeholder="Search"
+            name="Search"
+            id="searchbar"
+          />
+          <input
+            type="Submit"
+            placeholder="Search"
+            name="searchbtn"
+            id="searchbtn"
+            value="Search"
+          />
+        </form>
+      </div>
+    </header>
+    <main>
+      <div id="abtDiv">
+        <h1 id="abtHeading">About Us</h1>
+        <p id="abtPara">
+          Are you searching for a phones and laptops retail outpost, tailored to
+          your particular preferences with the latest goods in-stock and at
+          affordable prices? Well, we at <b>CRESTED IMPRESSION</b> are here with
+          our set up shop for you! We are an exclusively online phones and
+          laptops retails outfit, where you go through choices and options from
+          our vast gallery of gadgets, pick a choice or some choices and then
+          place your order. No matter the brands or specifications you require,
+          we have got you covered! Oh, and there is more, if you Sign Up as our
+          customer, you get updates about in-stock goods aligned to your
+          preferences and you become eligible for discount deals as you surf and
+          order. You can contact us by mail at: okoriechinonso01@gmail.com. You
+          can also connect with us on any of our social media platforms as
+          indicated below. If in the course of using our service, you encounter
+          any issues, feel free to drop a complaint on our complaints page.
+          <a href="./complaints.html"><h2>Complaints</h2></a>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div id="footerContainer">
+        <h4><em>Connect on Social Media</em></h4>
+        <div id="socialIcons">
+          <a href="#" class="fa fa-facebook" id="fbIcon"></a>
+          <a href="#" class="fa fa-instagram" id="instaIcon"></a>
+          <a href="#" class="fa fa-twitter" id="twitterIcon"></a>
+          <a href="#" class="fa fa-linkedin" id="linkedInIcon"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

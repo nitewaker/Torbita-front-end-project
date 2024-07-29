@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptops (HP)</title>
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <script
+      src="https://kit.fontawesome.com/818fa8aa3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: purple;
+      }
+      #logo {
+        width: 7%;
+      }
+      #heading {
+        width: 60%;
+        height: 60%;
+        color: rgb(180, 23, 23);
+        padding-left: 7%;
+        position: absolute;
+        top: 13px;
+        left: 3px;
+      }
+      #container {
+        background-color: rgb(9, 9, 9);
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 20px 20px;
+      }
+      nav > ul > li {
+        z-index: 100 !important;
+      }
+      nav > ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5rem;
+      }
+      #searchbar {
+        border: 2px solid rgb(22, 98, 212);
+        height: 1.875rem;
+        border-radius: 0.575rem;
+        width: 10.375rem;
+        float: right;
+      }
+      #searchbtn {
+        border: 3px dashed dark;
+        height: 1.875rem;
+        width: 4.375rem;
+        border-radius: 0.575rem;
+        background-color: rgb(180, 23, 23);
+        float: right;
+      }
+      #searchform {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.1875rem;
+        float: right;
+      }
+      a {
+        color: #bc8383;
+      }
+      a:hover {
+        color: #2383af;
+      }
+      a:visited {
+        color: #13765a5f;
+      }
+      a:active {
+        color: #1214785f;
+      }
+      #HPP {
+        width: 25%;
+      }
+      .colored {
+        color: rgb(169, 193, 31);
+      }
+      #submitbtn {
+        border: 3px dashed dark;
+        height: 1.875rem;
+        border-radius: 0.575rem;
+        background-color: rgb(180, 23, 23);
+      }
+      #socialIcons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      footer {
+        padding-left: 40%;
+        padding-bottom: 7%;
+      }
+      em {
+        padding-right: 65%;
+        color: rgb(169, 193, 31);
+        font-size: x-large;
+      }
+      #fbIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.5;
+      }
+      #instaIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+      #twitterIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+      #linkedInIcon {
+        color: hwb(229 34% 3%);
+        scale: 1.8;
+      }
+      .laptop {
+        width: 300px;
+        height: 320px;
+      }
+      .laptopsec {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="container">
+        <img src="../media/9391714.png" id="logo" />
+        <h1 id="heading">CRESTED IMPRESSION</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="../index.html"><h2>Home</h2></a>
+            </li>
+            <li>
+              <a href="./signUp.html"><h2>Sign Up</h2></a>
+            </li>
+            <li>
+              <a href="./about.html"><h2>About</h2></a>
+            </li>
+            <li>
+              <a href="./phones.html"><h2>Phones</h2></a>
+            </li>
+            <li>
+              <a href="./laptops.html"><h2>Laptops</h2></a>
+            </li>
+          </ul>
+        </nav>
+        <form id="searchform">
+          <input
+            type="Search"
+            placeholder="Search"
+            name="Search"
+            id="searchbar"
+          />
+          <input
+            type="Submit"
+            placeholder="Search"
+            name="searchbtn"
+            id="searchbtn"
+            value="Search"
+          />
+        </form>
+      </div>
+    </header>
+    <main>
+      <div>
+        <h1 class="colored">HP Laptops</h1>
+        <br />
+        <section class="laptopsec">
+          <div class="laptopdiv">
+            <h2 class="colored">HP Pavillion</h2>
+            <img
+              src="https://www.shutterstock.com/image-photo/bangkok-thailand-hp-launch-new-260nw-2126914553.jpg"
+              class="laptop"
+            />
+            <h3 class="colored">Price:NGN350k</h3>
+            <form>
+              <label for="HpPav" class="colored">Order</label>
+              <input type="checkbox" id="HpPav" />
+            </form>
+          </div>
+          <div class="laptopdiv">
+            <h2 class="colored">HP I3 silver laptop</h2>
+            <img
+              src="https://spng.pngfind.com/pngs/s/677-6777181_hp-i3-laptop-silver-hd-png-download.png"
+              class="laptop"
+            />
+            <h3 class="colored">Price:NGN250k</h3>
+            <form>
+              <label for="HpSilver" class="colored">Order</label>
+              <input type="checkbox" id="HpSilver" />
+            </form>
+          </div>
+        </section>
+        <section class="laptopsec">
+          <div class="laptopdiv">
+            <h2 class="colored">HP Elitebook</h2>
+            <img
+              src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08228847.png"
+              class="laptop"
+            />
+            <h3 class="colored">Price:NGN350k</h3>
+            <form>
+              <label for="checkelite" class="colored">Order</label>
+              <input type="checkbox" id="checkelite" />
+            </form>
+          </div>
+          <div class="laptopdiv">
+            <h2 class="colored">HP 14 Core I3</h2>
+            <img
+              src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08531421.png"
+              class="laptop"
+            />
+            <h3 class="colored">Price:NGN280k</h3>
+            <form>
+              <label for="check14" class="colored">Order</label>
+              <input type="checkbox" id="check14" />
+            </form>
+          </div>
+        </section>
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          id="submitbtn"
+          value="Submit Order"
+        />
+      </div>
+    </main>
+    <footer>
+      <div id="footerContainer">
+        <h4><em>Connect on Social Media</em></h4>
+        <div id="socialIcons">
+          <a href="#" class="fa fa-facebook" id="fbIcon"></a>
+          <a href="#" class="fa fa-instagram" id="instaIcon"></a>
+          <a href="#" class="fa fa-twitter" id="twitterIcon"></a>
+          <a href="#" class="fa fa-linkedin" id="linkedInIcon"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
